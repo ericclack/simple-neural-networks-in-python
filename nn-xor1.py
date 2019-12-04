@@ -80,9 +80,9 @@ if __name__ == "__main__":
     # Now do the training
     for i in range(10000):
         nn.feedforward()
-        if debug:
+        # Debug every 1000 iterations
         debug = (i % 1000 == 0)
-            print("Iteration", i)
+        if debug: print("Iteration", i)
         nn.backprop(debug)
 
     print(nn.output)
