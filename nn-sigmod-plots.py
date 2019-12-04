@@ -1,5 +1,6 @@
 # Exploring sigmoid and sigmoid_derivative functions with some simple
-# plots drawn with Pygame Zero.
+# plots drawn with Pygame Zero. Use `pgzrun nn-sigmod-plots.py` or
+# use the Mu editor.
 
 import numpy as np
 
